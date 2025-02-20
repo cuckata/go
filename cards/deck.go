@@ -12,7 +12,7 @@ import (
 //which is a slice of strings
 type deck []string
 
-//function with nested loop to create cards by Suit and Value
+//function with nested loop to create cards by Suit and Value combination
 func newDeck() deck {
 	cards := deck{}
 
